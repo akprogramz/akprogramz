@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microprocessors</title>
+    <link rel="stylesheet" href="mp1style.css">
+</head>
+<body>
+  
+    <nav id="sidebar">
+        <h2>MP</h2>
+        <ul style="list-style-type: none; padding: 0;">
+          <li style="margin-bottom: 10px;"><a href="#introduction" style="text-decoration: none; color: black;"> Introduction To Microprocessors </a></li>
+          <li style="margin-bottom: 10px;"><a href="#microcomputer" style="text-decoration: none; color: black;"> Microcomputer</a></li>
+          <li style="margin-bottom: 10px;"><a href="#microcontroller" style="text-decoration: none; color: black;"> Microcontroller</a></li>
+          <li style="margin-bottom: 10px;"><a href="#risc-and-cisc" style="text-decoration: none; color: black;"> RISC VS CISC </a></li>
+          <li style="margin-bottom: 10px;"><a href="#Differences" style="text-decoration: none; color: black;"> Microprocessor vs  Microcontroller</a></li>
+          <li style="margin-bottom: 10px;"><a href="#n-bit" style="text-decoration: none; color: black;"> n-bit Microprocessor</a></li>
+          <li style="margin-bottom: 10px;"><a href="#evolution" style="text-decoration: none; color: black;"> Evolution Of Microprocessors</a></li>
+          <li style="margin-bottom: 10px;"><a href="#basic-terms" style="text-decoration: none; color: black;"> Basic Terms Of Microprocessors</a></li>
+          <li style="margin-bottom: 10px;"><a href="#working" style="text-decoration: none; color: black;"> Working Of Microprocessors</a></li>
+          <li style="margin-bottom: 10px;"><a href="#features" style="text-decoration: none; color: black;"> Features of Microprocessor </a></li>
+
+
+        </ul>
+    </nav>
+    <main id="documentation">
+        <section id="introduction">
+          <div class="container">
+            <div class="buttons">
+            <button class="next"><a href="index.html"  style="color: white; text-decoration: none;">◀ prev</a></button>
+            <button class="prev"><a href="mp2.html" style="color: white; text-decoration: none;">Next ▶</a></button>
+          </div>
+        </div>
+          <h2>1. Introduction To Microprocessor:</h2>
+          <article>
+            <ul>
+              <li>A Microprocessor is an important part of a computer architecture without which you will 
+                not be able to perform anything on your computer.</li>
+                <li>It is a programmable device that takes in input performs some arithmetic and 
+                    logical operations over it and produces the desired output.</li>
+                    <li>In simple words, a Microprocessor is a digital device on a chip that 
+                        can fetch instructions from memory, decode and execute them and give results.</li>
+                        <li>A Microprocessor takes a bunch of instructions in machine language and executes them, telling the processor what it has to do.</li>
+                        <li>Microprocessor performs three basic things while executing the instruction: 
+                        </li>
+                        <ol>
+                            <li>It performs some basic operations like addition, subtraction, multiplication, division, and some logical operations using its Arithmetic and Logical Unit (ALU). New Microprocessors also perform operations on floating-point numbers also. </li>
+                            <li>Data in microprocessors can move from one location to another. </li>
+                            <li>It has a Program Counter (PC) register that stores the address of the next instruction based on the value of the PC, Microprocessor jumps from one location to another and takes decisions. </li>
+
+                        </ol>
+                        <li>A microprocessor also has lines for controlling the input and output devices. These devices could be an electric motor or a display lamp or other electronic devices.</li>
+                        <li>A typical Microprocessor structure looks like this :</li>
+                        <img src="img1.png" alt="microprocessor diagram">
+            </ul>
+          </section>
+            
+          <h2>2. Differences in Microcomputer, Microprocessor and Microcontroller :</h2>
+          <section id="microcomputer">
+          <h3>2.1 Microcomputer :</h3>
+          <ul>
+            <li>A microcomputer can be defined as a small sized, inexpensive, and limited capability computer.</li>
+            <li>It has the same architectural block structure that is present on a computer.</li>
+            <li>Due to their lower costs, individuals can possess them as their personal computers. </li>
+            <li>Because of mass production, they are becoming still cheaper.</li>
+            <li>They are also capable of performing floating point arithmetic operations.</li>
+            <li>With the advent of increasingly powerful microprocessors, microcomputers became popular in the 1970s and1980s.</li>
+          </ul>
+        </section>
+
+          <h3>2.2 Microprocessor:</h3>
+          <ul>
+            <li>The processor on a single chip is called a Microprocessor which can process micro-instructions.</li>
+            <li> Instructions in the form of 0's and 1's are called micro-instructions.</li>
+            <li>The microprocessor is the CPU part of a microcomputer, and it is also available as a single integrated circuit.</li>
+            <li>Thus as main components, the microprocessor will have theControl Unit (CU) and the Arithmetic Logic Unit (ALU) of a microcomputer.</li>
+            <li>An example is Intel 8085 microprocessor.</li>
+            <li>In the present-day world, Microprocessors are extensively used. Before the microprocessor's invention, the logic design was done by hardware using gates, flip-flops, etc.</li>
+            <li>Some of the applications of microprocessors are Business applications such as desktop publishing, industrial applications like power plant control and Measuring instruments such as multimeter.</li>
+          </ul>
+          <section id="microcontroller">
+          <h3>2.3 Microcontroller :</h3>
+          <ul>
+            <li>A Microcontroller is a small and low-cost microcomputer, which is designed to perform the specific tasks of embedded systems like displaying microwave information, receiving remote signals etc.</li>
+            <li>The general microcontroller consists of the processor, the memory (RAM, ROM, EPROM), Serial ports, peripherals (timers, counters) etc.</li>
+            <li>Types of Microcontrollers :</li>
+            <ol type="1">
+              <li><h4>Bit :</h4></li>
+              <ol type="a">
+                <li><h4>8-bit microcontroller : </h4>It is a type of the microcontroller is used to execute arithmetic and logical operations like addition, subtraction, multiplication division, etc. For example, Intel 8031 and 8051. </li>
+                <li><h4>16-bit microcontrollers :</h4>This type of the microcontroller is used to perform arithmetic and logical operations where higher accuracy and performance is required. Forexample, Intel 8096.</li>
+                <li><h4>32-bit microcontrollers</h4>This type of the microcontroller is generally used in automatically controlled appliances.For example automatic operational machines, medical appliances, etc.</li>
+              </ol>
+              <li><h4>Memory :</h4></li>
+              <ol type="a">
+                <li><h4>External memory microcontroller :</h4>This type of microcontroller is designed in such a way that they do not have a program memory on the chip. Hence, it is named as external memory microcontroller. For example Intel 8031 microcontroller.</li>
+                <li><h4>Embedded memory microcontroller :</h4>This type of microcontroller is designed in such a way that the microcontroller has all programs and data memory, counters and timers, interrupts, I/O ports are embedded on the chip. For example Intel 8051 microcontroller.</li>
+              </ol>
+              <li><h4>Instruction Set :</h4></li>
+              <ol type="a">
+                <li><h4>CISC(complex instruction set computer) :</h4>It allows the user to insert a single instruction as an alternative to many simple instructions.</li>
+                <li><h4>RISC(Reduced Instruction Set Computers) :</h4>It reduces the operational time by shortening the clock cycle per instruction</li>
+              </ol>
+            </section>
+              <section id="risc-and-cisc">
+              <h3>Difference between RISC and CISC :</h3>
+              <table>
+            <tr>
+              <th>RISC</th>
+              <th>CISC</th>
+            </tr>
+            <tr>
+              <td>Stands for Reduced instruction set computer</td>
+              <td>Stands for complex instruction set computer</td>
+            </tr>
+            <tr>
+              <td>Simple instruction set</td>
+              <td>Complex instruction set</td>
+          </tr>
+          <tr>
+            <td>Consists of Large number of registers.</td>
+            <td>Less number of registers</td>
+          </tr>
+          <tr>
+            <td>Larger Program</td>
+            <td>Smaller program</td>
+          </tr>
+          <tr>
+            <td>More RAM usage</td>
+            <td>Little Ram usage</td>
+          </tr>
+          <tr>
+            <td>Fixed length instructions</td>
+            <td>Variable length instructions</td>
+          </tr>
+          <tr>
+            <td>Simple addressing modes</td>
+            <td>Variety of addressing modes</td>
+          </tr>
+          </table>
+          </ul>
+        </section>
+        <section id="Differences">
+          <h3>Difference between Microprocessor and Microcontroller :</h3>
+          <table>
+            <tr>
+              <th>Microprocessor</th>
+              <th>Microcontroller</th>
+            </tr>
+            <tr>
+              <td>Centre of a computer system</td>
+              <td>Centre of embedded system</td>
+            </tr>
+            <tr>
+              <td>Memory and I/O components are external to it</td>
+              <td>Memory and I/O components are internal to it</td>
+            </tr>
+            <tr>
+              <td>Higher cost</td>
+              <td>Lower cost</td>
+            </tr>
+            <tr>
+              <td>Less number of registers</td>
+              <td>More number of registers</td>
+            </tr>
+            <tr>
+              <td>Requires more instructions</td>
+              <td>Requires less instructions</td>
+            </tr>
+          </table>
+        </section>
+        <section id="n-bit">
+          <h2>3. An n-bit Microprocessor :</h2>
+          <ul>
+            <li>A microprocessor is called an n-bit microprocessor depending on size of internal data bus.</li>
+            <li>n-bit Microprocessor will have registers that can hold n-bit data.</li>
+            <li>An n-bit Microprocessor can also be used to perform operations on larger data. However such operations will generally be slower than n-bit operations.</li>
+          </ul>
+        </section>
+        <section id="evolution">
+          <h2>4. Evolution of microprocessors :</h2>
+          <ul>
+            <li>We can categorize the microprocessor according to the generations or according to the size of the microprocessor :</li>
+            <ul type="disc">
+              <h3>First Generation (4 - bit Microprocessors) :</h3>
+              <li>The first generation microprocessors were introduced in the year 1971-1972 by Intel Corporation. </li>
+              <li>It was named Intel 4004 since it was a 4-bit processor.</li>
+              <li>It was a processor on a single chip.</li>
+              <li> It could perform simple arithmetic and logical operations such as addition, subtraction, Boolean OR and Boolean AND.</li>
+              <li>I had a control unit capable of performing control functions like fetching an instruction from storage memory, decoding it, and then generating control pulses to execute it.
+              </li>
+            </ul>
+            <ul type="disc">
+              <h3>Second Generation (8 - bit Microprocessor) :</h3>
+              <li>The second generation microprocessors were introduced in 1973 again by Intel. </li>
+              <li>It was a first 8 - bit microprocessor which could perform arithmetic and logic operations on 8-bit words.</li>
+              <li>It was Intel 8008, and another improved version was Intel 8088.</li>
+            </ul>
+            <ul type="disc">
+              <h3>Third Generation (16 - bit Microprocessor) :</h3>
+              <li>The third generation microprocessors, introduced in 1978 were represented by Intel's 8086, Zilog Z800 and 80286, which were 16 - bit processors with a performance like minicomputers.</li>
+            </ul>
+            <ul type="disc">
+              <h3>Fourth Generation (32 - bit Microprocessors) :</h3>
+              <li>Several different companies introduced the 32-bit microprocessors, but the most popular one is the Intel 80386.</li>
+            </ul>
+            <ul type="disc">
+              <h3>Fifth Generation (64 - bit Microprocessors) :</h3>
+              <li>From 1995 to now we are in the fifth generation. </li>
+              <li>After 80856, Intel came out with a new processor namely Pentium processor followed by Pentium Pro CPU, which allows multiple CPUs in a single system to achieve multiprocessing.</li>
+              <li>Other improved 64-bit processors are Celeron, Dual, Quad, Octa Core processors.</li>
+            </ul>
+          </ul>
+        </section>
+        <section id="basic-terms">
+        <h2>5. Basic Terms used in Microprocessor :</h2>
+        <ul>
+        <li><p style="font-size: 20px;"><strong>Instruction Set</strong>- The group of commands that the microprocessor can understand is called Instruction set. It is an interface between hardware and software.</p></li>
+        <li><p style="font-size: 20px;"><strong>Bus</strong>- Set of conductors intended to transmit data, address or control information to different elements in a microprocessor. A microprocessor will have three types of buses, i.e., data bus, address bus, and control bus.</p></li>
+        <li><p style="font-size: 20px;"><strong>IPC (Instructions Per Cycle)</strong>- It is a measure of how many instructions a CPU is capable of executing in a single clock.</p>          <li><p style="font-size: 20px;"><strong>Clock Speed</strong>- It is the number of operations per second the processor can perform. It can be expressed in megahertz (MHz) or gigahertz (GHz). It is also called the Clock Rate.</p></li>
+        <li><p style="font-size: 20px;"><strong>Bandwidth</strong>- The number of bits processed in a single instruction is called Bandwidth.</p></li>
+        <li> <p style="font-size: 20px;"><strong>Word Length </strong>- The number of bits the processor can process at a time is called the word length of the processor. 8-bit Microprocessor may process 8 -bit data at a time. The range of word length is from 4 bits to 64 bits depending upon the type of the microcomputer.</p></li>
+        <li> <p style="font-size: 20px;"><strong>Data Types</strong>- The microprocessor supports multiple data type formats like binary, ASCII, signed and unsigned numbers.</p></li>
+      </ul>
+    </section>
+
+      <section id="working">
+        <h2>6. Working of Microprocessor :</h2>
+        <ul>
+        <li><p style="font-size: 20px;">The microprocessor follows a sequence to execute the instruction: Fetch, Decode, and then Execute.</p></li>
+        <li><p style="font-size: 20px;">Initially, the instructions are stored in the storage memory of the computer in sequential order. 
+        <li><p style="font-size: 20px;">The microprocessor fetches those instructions from the stored area (memory), then decodes it and executes those instructions till STOP instruction is met.</p></li> 
+        <li><p style="font-size: 20px;">Then, it sends the result in binary form to the output port. </p></li>
+        <li><p style="font-size: 20px;">Between these processes, the register stores the temporary data and ALU (Arithmetic and Logic Unit) performs the computing functions.</p></li>
+      </ul>
+    </section>
+
+    <section id="features">
+      <h2>7. Features of Microprocessor :</h2>
+      <ul>
+        <li><p><strong>Low Cost</strong>- Due to integrated circuit technology microprocessors are available at very low cost. It will reduce the cost of a computer system.</p></li>
+        <li><p><strong>High Speed</strong> - Due to the technology involved in it, the microprocessor can work at very high speed. It can execute millions of instructions per second.</p></li>
+        <li><p><strong>Small Size </strong>- A microprocessor is fabricated in a very less footprint due to very large scale and ultra large scale integration technology. Because of this, the size of the computer system is reduced.</p></li>
+        <li><p><strong>Versatile </strong>- The same chip can be used for several applications, therefore, microprocessors are versatile.</p></li>
+        <li><p><strong>Reliable</strong>- Since microprocessors use semiconductor technology, therefore, the failure rate is very less. Hence it is very reliable.</p></li>
+        <li><p><strong>Portable</strong> - Due to the small size and low power consumption microprocessors are portable.</p></li>
+      </ul>
+    </section>
+
+        <div class="container">
+          <div class="buttons">
+          <button class="next"><a href="index.html"  style="color: white; text-decoration: none;">◀ prev</a></button>
+          <button class="prev"><a href="mp2.html"  style="color: white; text-decoration: none;">Next ▶</a></button>
+        </div>
+      </div>
+</body>
+</html>
