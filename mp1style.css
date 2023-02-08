@@ -66,12 +66,17 @@ section article {
 section li {
   margin: 15px 0px 0px 20px;
 }
-img{
+img {
   height: 700px;
   width: 700px;
   margin: 0 auto;
 }
 
+@media (max-width: 767px) {
+  img {
+    width: 400px;
+  }
+}
 
 pre {
   display: block;
