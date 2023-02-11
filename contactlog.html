@@ -19,30 +19,36 @@
 body{
     height: 100vh;
     width: 100%;
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #333645;
 }
+
 .container{
     height: 75vh;
     width: 25vw;
     background-color: rgb(40, 117, 128);
-    justify-content: center;
-    align-items: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 10px;
 }
+
 form{
     height: 75vh;
     width: 30vw;
-    display: grid;
-    place-content: center;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 form h1{
     margin-top: -15px;
     text-align: center;
 }
+
 input{
     outline: none;
     border: none;
@@ -52,9 +58,11 @@ input{
     padding: 15px;
     width: 22.5vw;
 }
+
 form{
 
 }
+
 label{
     font-size: 20px;
 }
@@ -66,10 +74,11 @@ textarea{
     font-size: 18px;
     width: 22.5vw;
 }
+
 .button{
     text-align: center;
-
 }
+
 button{
     font-size: 22px;
     font-weight: 650;
@@ -81,13 +90,33 @@ button{
     color: white;
     background: #1c3d52;
 }
+
 span{
     color: red;
 }
+
 h5{
     margin-top: 20px;
     color: #d900ff;
 }
+
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 80vw;
+        height: 70vh;
+    }
+    form{
+        width: 80vw;
+        height: 70vh;
+    }
+    input{
+        width: 75vw;
+    }
+    textarea{
+        width: 75vw;
+    }
+}
+
     </style>
 </head>
 <body>
